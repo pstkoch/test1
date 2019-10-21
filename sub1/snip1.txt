@@ -1,5 +1,0 @@
-
-
-v=strsplit(help('antver'),char(10))';
-idate=max(regexpi2(v,' \w\w\w 20\d\d (\d\d'));
-dateLU=regexprep(v(idate), {' (.*'  '  #\w\w ' },{''});
